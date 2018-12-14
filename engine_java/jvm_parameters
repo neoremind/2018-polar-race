@@ -1,0 +1,1 @@
+-server -Djava.util.Arrays.useLegacyMergeSort=true -XX:-UseBiasedLocking -Xms2000m -Xmx2000m -XX:NewSize=1400m -XX:MaxMetaspaceSize=32m -XX:MaxDirectMemorySize=1G -XX:+UseG1GC
