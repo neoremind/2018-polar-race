@@ -1,18 +1,7 @@
-## All you have to do:
+# 天池-2018年第一届阿里云PolarDB数据库性能大赛分享
 
-Complete engine_race/engine_race.[h,cc], and execute
+[天池比赛链接](https://tianchi.aliyun.com/programming/rankingList.htm?spm=5176.100067.5678.4.5efb714bzvzVTd&raceId=231689)
 
-```
-make
-```
-to build your own engine
+[赛题描述](RaceRule.md)
 
-## Example for you
-
-For quick start, we have already implemented a simple
-example engine in engine_example, you can view it and execute
-
-```
-make TARGET_ENGINE=engine_example
-```
-to build this example engine
+[解题分享长文]()
