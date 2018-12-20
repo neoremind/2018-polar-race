@@ -4,9 +4,7 @@
 
 [赛题描述](RaceRule.md)
 
-[解题报告长文](http://neoremind.com/2018/12/2018_polar_race_java_rank_1_sharing)
-
-TODO 解法报告预期发布在阿里云栖社区，链接会更新。
+[解题报告长文](http://neoremind.com/2018/12/2018-polar-race-java-no-1/)
 
 ## How to build
 
