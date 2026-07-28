@@ -1,10 +1,15 @@
-# 天池大赛-阿里云2018年第一届PolarDB数据库性能大赛分享
+Read the deep dive article here [Building a KV Engine to Saturate Intel Optane 
+SSD in java](building-a-kv-engine-to-saturate-optane-ssd-java.md)
+
+# 1st AliCloud Database Performance Competition in 2018 - Java rank No.1 source code
+
+天池大赛-阿里云2018年第一届PolarDB数据库性能大赛分享
 
 [天池比赛链接](https://tianchi.aliyun.com/programming/rankingList.htm?spm=5176.100067.5678.4.5efb714bzvzVTd&raceId=231689)
 
 [赛题描述](RaceRule.md)
 
-[解题报告长文](http://neoremind.com/2018/12/2018-polar-race-java-no-1/)
+[中文解题报告长文](http://neoremind.com/2018/12/2018-polar-race-java-no-1/)
 
 ## How to build
 
@@ -13,8 +18,6 @@ cd engine_java && mvn assembly:assembly
 ```
 
 ## How to run
-
-默认只能在Linux上运行（因为使用了JNA的Direct I/O）。
 
 Write:
 ```
@@ -32,6 +35,6 @@ java -server -XX:-UseBiasedLocking -Xms2000m -Xmx2000m -XX:NewSize=1400m -XX:Max
 ```
 
 Note:
-```
-64 1000000 8 4096 表示64并发，每个线程100w kv，key 8B，value 4K
-```
+- Only on Linux
+- Parameter: `64 1000000 8 4096 means 64 concurrent threads，each with 1 
+million key-values, key size is 8B，and value size is 4K`
